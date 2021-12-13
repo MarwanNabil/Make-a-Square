@@ -29,7 +29,6 @@ public class piece {
                 return this.move1();
 
         }
-        System.out.print("!!");
         throw new IndexOutOfBoundsException();
     }
     
