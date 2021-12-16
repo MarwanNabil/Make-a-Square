@@ -1,12 +1,7 @@
-
 package makeasquare;
 
 import java.util.ArrayList;
 import java.util.Collections;
-
-/*
-discribe anything you need here.
-*/
 
 public class piece {
     private int row , col;
@@ -33,7 +28,8 @@ public class piece {
     }
     
     private char[][] move0(){
-        return this.piece;
+        //this time I returned a clone not the object reference itself.
+        return this.piece.clone();
     }
     private char[][] move1(){
         /*
